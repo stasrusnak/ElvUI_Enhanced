@@ -95,7 +95,7 @@ L["Alt-Click Merchant"] = true
 L["Already Known"] = true
 L["Automatically change your watched faction on the reputation bar to the faction you got reputation points for."] = "Автоматическое изменение фракции на панели репутации на ту, очки репутации которой вы получили."
 L["Automatically release body when killed inside a battleground."] = "Автоматически покидать тело после смерти на полях боя."
-L["Automatically select the quest reward with the highest vendor sell value."] = true
+L["Automatically select the quest reward with the highest vendor sell value."] = "Автоматически выбирать награду за задание с наибольшей стоимостью продажи у продавца."
 L["Auto decline all duels"] = "Автоматически отклонять все дуэли."
 L["Auto decline party invites"] = true
 L["Changes the transparency of all the movers."] = "Изменяет прозрачность фиксаторов"
@@ -103,7 +103,7 @@ L["Colorize the WorldMap party/raid icons with class colors"] = true
 L["Colorizes recipes that are already known"] = true
 L["Decline Duel"] = true
 L["Decline Party"] = true
-L["Declined duel request from "] = "DДуэль отклонена от "
+L["Declined duel request from "] = "Дуэль отклонена от "
 L["Declined party request from "] = true
 L["Display the item level on the MerchantFrame, to change the font you have to set it in ElvUI - Bags - ItemLevel"] = true
 L["Display the item level on the Quest frames, to change the font you have to set it in ElvUI - Bags - ItemLevel"] = true
@@ -115,12 +115,38 @@ L["Mover Transparency"] = "Прозрачность фиксаторов"
 L["Original Close Button"] = true
 L["PvP Autorelease"] = "Автовыход из тела"
 L["Quest ItemLevel"] = true
-L["Select Quest Reward"] = true
+L["Select Quest Reward"] = "Выберите награду за квест"
 L["Show Quest Level"] = true
 L["Track Reputation"] = "Отслеживание репутации"
 L["Train All Button"] = true
 L["Undress Button"] = true
 L["WorldMap Blips"] = true
+
+
+L["Add button to Dressing Room frame with ability to undress model."] = "Добавить кнопку в примерочную с возможностью раздеть модель."
+L["Add button to Trainer frame with ability to train all available skills in one click."] = "Добавить кнопку в окно тренера с возможностью изучить все доступные навыки одним кликом."
+L["Alt-Click Merchant"] = "Alt-Клик по торговцу"
+L["Already Known"] = "Уже известно"
+L["Auto decline party invites"] = "Автоматически отклонять приглашения в группу"
+L["Colorize the WorldMap party/raid icons with class colors"] = "Окрашивать иконки группы/рейда на карте мира в цвета классов"
+L["Colorizes recipes that are already known"] = "Окрашивает рецепты, которые уже известны"
+L["Decline Duel"] = "Отклонить дуэль"
+L["Decline Party"] = "Отклонить приглашение в группу"
+L["Declined party request from "] = "Приглашение в группу отклонено от "
+L["Display the item level on the MerchantFrame, to change the font you have to set it in ElvUI - Bags - ItemLevel"] = "Отображать уровень предмета в окне торговца, чтобы изменить шрифт, необходимо настроить его в ElvUI - Сумки - Уровень предметов"
+L["Display the item level on the Quest frames, to change the font you have to set it in ElvUI - Bags - ItemLevel"] = "Отображать уровень предмета в окне заданий, чтобы изменить шрифт, необходимо настроить его в ElvUI - Сумки - Уровень предметов"
+L["Display quest levels at Quest Log."] = "Отображать уровни заданий в журнале заданий."
+L["Hide Zone Text"] = "Скрыть текст зоны"
+L["Holding Alt key while buying something from vendor will now buy an entire stack."] = "Удерживание клавиши Alt при покупке чего-либо у торговца теперь покупает всю пачку."
+L["Merchant ItemLevel"] = "Уровень предметов у торговца"
+L["Original Close Button"] = "Оригинальная кнопка закрытия"
+L["Quest ItemLevel"] = "Уровень предметов в заданиях"
+L["Show Quest Level"] = "Показывать уровень задания"
+L["Train All Button"] = "Кнопка изучить все"
+L["Undress Button"] = "Кнопка раздеть"
+
+
+
 
 -- Model Frames
 L["Drag"] = "Перетащить"
@@ -138,39 +164,39 @@ L["Smooth Bars"] = true
 
 -- Minimap
 L["Above Minimap"] = "Над миникартой"
-L["Always"] = "Всегда"
-L["Combat Hide"] = true
+L["Always"] = "Всегда" 
 L["FadeIn Delay"] = "Задержка появления"
 L["Hide minimap while in combat."] = "Скрывать миникарту во время боя."
-L["Location Digits"] = "Цифры координат"
-L["Location Panel"] = true
+L["Location Digits"] = "Цифры координат" 
 L["Number of digits for map location."] = "Колличество цифр после запятой в координатах."
 L["The time to wait before fading the minimap back in after combat hide. (0 = Disabled)"] = "Время ожидания появления миникарты после выхода из боя. (0 = Выключено)"
-L["Toggle Location Panel."] = true
+L["Combat Hide"] = "Скрытие в бою"
+L["Location Panel"] = "Панель местоположения"
+L["Toggle Location Panel."] = "Переключатель панели местоположения."
 
 -- Tooltip
 L["Item Border Color"] = "Цвет рамки предметов"
-L["Colorize the tooltip border based on item quality."] = "Окрашивать бордюр тултипа в цвет качества предмета"
-L["Show/Hides an Icon for Items on the Tooltip."] = true
-L["Show/Hides an Icon for Spells on the Tooltip."] = true
-L["Show/Hides an Icon for Spells and Items on the Tooltip."] = true
-L["Spells"] = "Заклинания"
-L["Tooltip Icon"] = true
+L["Colorize the tooltip border based on item quality."] = "Окрашивать рамку тултипа в цвет качества предмета"  
+L["Spells"] = "Заклинания"  
+L["Show/Hides an Icon for Items on the Tooltip."] = "Показать/скрыть иконку предметов в подсказке."
+L["Show/Hides an Icon for Spells on the Tooltip."] = "Показать/скрыть иконку заклинаний в подсказке."
+L["Show/Hides an Icon for Spells and Items on the Tooltip."] = "Показать/скрыть иконку заклинаний и предметов в подсказке."
+L["Tooltip Icon"] = "Иконка в подсказке"
 
 -- Misc
 L["Enhanced Frames"] = true
-L["Miscellaneous"] = "Разное"
-L["Skin Animations"] = true
-L["Total cost:"] = true
-L["Undress"] = "Раздеть"
+L["Miscellaneous"] = "Разное"  
+L["Undress"] = "Раздеть" 
+L["Skin Animations"] = "Анимации скинов"
+L["Total cost:"] = "Общая стоимость:"
 
 -- Character Frame
 L["Character Stats"] = "Характеристики"
 L["Damage Per Second"] = "Урон в секунду"
 L["Hide Character Information"] = "Скрыть информацию о персонаже"
 L["Hide Pet Information"] = "Скрыть информацию о питомце"
-L["Item Level"] = true
-L["Resistance"] = true
+L["Item Level"] = "Уровень предмета"
+L["Resistance"] = "Сопротивление" 
 L["Show Character Information"] = "Показать информацию о персонаже"
 L["Show Pet Information"] = "Показать информацию о питомце"
 L["Titles"] = true
@@ -191,19 +217,19 @@ L["Snare"] = "Ловушки"
 L["Type"] = "Тип"
 
 -- Raid Marks
-L["Raid Markers"] = true
-L["Click to clear the mark."] = true
-L["Click to mark the target."] = true
-L["In Party"] = true
-L["Raid Marker Bar"] = true
-L["Reverse"] = true
+L["Raid Markers"] = "Метки рейда"
+L["Click to clear the mark."] = "Щелкните, чтобы снять метку."
+L["Click to mark the target."] = "Щелкните, чтобы пометить цель."
+L["In Party"] = "В группе"
+L["Raid Marker Bar"] = "Панель меток рейда"
+L["Reverse"] = "Реверс"
 
 -- Unitframes
-L["Class Icons"] = true
-L["Detached Height"] = "Высота при откреплении"
-L["Energy Tick"] = true
-L["Show class icon for units."] = "Показывать иконку класса на цели."
-L["Target"] = true
+L["Class Icons"] = "Иконки классов"
+L["Detached Height"] = "Высота при откреплении" 
+L["Show class icon for units."] = "Показывать иконку класса на цели."  
+L["Energy Tick"] = "Тик энергии"
+L["Target"] = "Цель"
 
 -- WatchFrame
 L["Arena"] = "Арена"
